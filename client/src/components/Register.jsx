@@ -38,7 +38,7 @@ function Register() {
 
       const BASE_URL =
         import.meta.env.VITE_API_URL ||
-        "http://localhost:4000";
+        "https://blogapp-vaishnavi.onrender.com";
 
       const res = await axios.post(
         `${BASE_URL}/auth/users`,
